@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="../styles/grid.css" /> -->
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <title>My W3Schools</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-left">
+        <a href="https://www.w3schools.com/"
+          ><img class="header-logo" src="images/a.jpg" alt=""
+        /></a>
+        <div class="header-left-menu" onclick="toggleMenu()">
+          <h3>Menu<i class="fa-solid fa-caret-down"></i></h3>
+        </div>
+        <ul>
+          <li>Tutorial<i class="fa-solid fa-caret-down"></i></li>
+          <li>References<i class="fa-solid fa-caret-down"></i></li>
+          <li>Exercises<i class="fa-solid fa-caret-down"></i></li>
+          <li>Vedios</li>
+        </ul>
+      </div>
+      <div class="header-right">
+        <div class="header-icons">
+          <i class="fa-solid fa-circle-half-stroke"></i>
+          <i class="fa-solid fa-earth-africa"></i>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <ul>
+          <li><a class="header-link-right pink-link" href="#">Website</a></li>
+          <li>
+            <a class="header-link-right paid-link" href="#">Paid Courses</a>
+          </li>
+          <li><a class="header-link-login" href="">Log in</a></li>
+        </ul>
+      </div>
+      <div class="toggle-menu">
+        <ul class="toggle">
+          <li>Tutorials<i class="fa-solid fa-caret-down"></i></li>
+          <li>References<i class="fa-solid fa-caret-down"></i></li>
+          <li>Exercises<i class="fa-solid fa-caret-down"></i></li>
+          <li>Paid Courses</li>
+          <li>Spaces</li>
+          <li>Videos</li>
+          <li>Shop</li>
+        </ul>
+      </div>
+    </header>
+    <section>
+      <div class="sec-1">
+        <h1>Learn to Code</h1>
+        <p>With the world's largest web developer site.</p>
+        <div class="sec-1-content">
+          <input
+            class="input-sec-1"
+            type="text"
+            placeholder="Search our tutorials, e.g. HTML"
+          />
+          <button class="button-sec-1">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+        <a href="#">Not Sure Where To Begin?</a>
+      </div>
+
+      <div class="sec-2">
+        <div class="sec-2-left">
+          <h1>HTML</h1>
+          <p>The language for building web pages</p>
+          <div class="sec-2-btns">
+            <a class="btn" href="#">Learn HTML</a>
+            <a class="btn" href="#"
+              >Video Tutorial <span class="pink-new">NEW</span></a
+            >
+            <a class="btn" href="#">HTML References</a>
+          </div>
+        </div>
+        <div class="sec-2-right">
+          <div class="code-container">
+            <h2>HTML Example:</h2>
+            <div class="code">
+              &lt;<span class="blue"></span><span class="brown">!DOCTYPE</span> <span style="color: red;">html</span>&gt;<br />
+              &lt;<span class="brown">html</span>&gt;<br />
+              &lt;<span class="brown">title</span>&gt;HTML Tutorial&lt;/<span class="brown">title</span>&gt;<br />
+              &lt;<span class="brown">body</span>&gt;<br /><br />
+              &lt;<span class="brown">h1</span>&gt;This is a heading&lt;/<span class="brown">h1</span>&gt;<br />
+              &lt;<span class="brown">p</span>&gt;This is a paragraph.&lt;/<span class="brown">p</span>&gt;<br /><br />
+              &lt;/<span class="brown">body</span>&gt;<br />
+              &lt;/<span class="brown">html</span>&gt;
+            </div>
+            <a class="btn" href="#">Try it Yourself</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="scripts/app.js"></script>
+  </body>
+</html>
